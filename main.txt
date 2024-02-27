@@ -1,0 +1,35 @@
+With python,
+read file Properties.html and parse it with Beautifulsoup
+
+
+find all
+div with class="grid-details ng-star-inserted"
+and in all these divs
+
+find div with class="grid-address" and store it to name_location
+find div with class="grid-type ng-star-inserted" and store it to type
+
+also in div class="grid-price"
+find span with class="ng-star-inserted"> and store it to price
+
+try find li with class="bed ng-star-inserted"
+and find div and store it to no_bedrooms 
+except no_bedrooms=" "
+
+try find li  with class="acres ng-star-inserted" and find 
+span and store it in size
+except size = " "
+
+try find li with class="car-park ng-star-inserted" and find
+span and store it in car_park
+except car_park = " "
+
+try find li with class="bath ng-star-inserted" and find
+div and store it in bathrooms
+except bathrooms = " "
+
+try find li with class="swimming ng-star-inserted" and find
+span and store it in swimming_pool
+except swimming_pool = " "
+
+open an excel file and write name_location, type, price, no_bedrooms, size, car_park, bathrooms, swimming_pool
